@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cliente-02-abelhinha.vercel.app/sitemap.xml
