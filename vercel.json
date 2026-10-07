@@ -1,3 +1,5 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "buildCommand": "mkdir -p out/assets && cp index.html out/ && (cp robots.txt out/ 2>/dev/null || true) && (cp sitemap.xml out/ 2>/dev/null || true) && cp assets/styles.css assets/app.js out/assets/ && node scripts/build-images.js",
+  "outputDirectory": "out"
 }
