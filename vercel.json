@@ -1,4 +1,3 @@
 {
-  "buildCommand": "mkdir -p out/assets && cp index.html robots.txt sitemap.xml out/ && cp assets/styles.css assets/app.js out/assets/ && base64 -d assets/mascote.b64 > out/assets/mascote.webp && base64 -d assets/og-image.b64 > out/og-image.jpg",
-  "outputDirectory": "out"
+  "cleanUrls": true
 }
